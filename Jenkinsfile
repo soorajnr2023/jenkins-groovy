@@ -8,7 +8,9 @@ steps{
 }
  }
   stage('second stage starting'){
-   echo"package is deploying"
+   steps{
+    echo"package is deploying"
+   }
   }
 }
 }
