@@ -1,0 +1,11 @@
+pipeline{
+agent any
+stages{
+ stage('Printing a message '){
+steps{
+    echo"hello maven and other world"
+    sh 'mvn --version'
+}
+}
+}
+}
