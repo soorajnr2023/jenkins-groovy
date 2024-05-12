@@ -12,7 +12,7 @@ steps{
     echo"package is deploying"
    }
   }
- stage('second stage starting'){
+ stage('third stage starting'){
    steps{
     echo"docker is deployed...successfully"
    }
