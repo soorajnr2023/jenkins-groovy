@@ -6,9 +6,9 @@ steps{
     echo"Job is building"
     sh 'mvn --version'
 }
-  steps{
+ }
+  stage('second stage starting'){
    echo"package is deploying"
   }
-}
 }
 }
