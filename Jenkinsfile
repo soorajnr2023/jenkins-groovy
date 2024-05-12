@@ -8,6 +8,7 @@ steps{
 }
   steps{
    echo"package is deploying"
+  }
 }
 }
 }
